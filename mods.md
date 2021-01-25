@@ -1,29 +1,29 @@
 ## Heap Info
-![Better Contracts](/img/iconBig9.jpg)
+![Heap Info](/img/iconBig9.jpg)
 * * * 
  
 ## Loader Vehicles AI
-![Better Contracts](/img/iconBig8.jpg)
+![Loader Vehicles AI](/img/iconBig8.jpg)
 * * * 
  
 ## Real Seeds Usage
-![Better Contracts](/img/iconBig7.jpg)
+![Real Seeds Usage](/img/iconBig7.jpg)
 * * * 
  
 ## Map Objects Hider
-![Better Contracts](/img/iconBig6.jpg)
+![Map Objects Hider](/img/iconBig6.jpg)
 * * * 
  
 ## Camera Suspension
-![Better Contracts](/img/iconBig5.jpg)
+![Camera Suspension](/img/iconBig5.jpg)
 * * * 
  
 ## Info Display
-![Better Contracts](/img/iconBig4.jpg)
+![Info Display](/img/iconBig4.jpg)
 * * * 
  
 ## Advanced Stats
-![Better Contracts](/img/iconBig3.jpg)
+![Advanced Stats](/img/iconBig3.jpg)
 * * * 
  
 ## Better Contracts 
