@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign sorted_mods = site.mods | sort:"mh" %}
-{% for mod in sorted_mods %}
+{% for mod in sorted_mods reversed %}
 <h2>{{ mod.name }}</h2>
 <table>
   <tr>
