@@ -5,21 +5,21 @@ layout: default
 <h2>{{ mod.name }}</h2>
 <table>
   <tr>
-    <td>
-      <img src="/img/{{ mod.icon }}.jpg" />
+    <td style="border: none;">
+      <img src="/img/{{ mod.icon }}.jpg" style="width: 200px;" />
     </td>
-    <td>
+    <td style="border: none;">
       <div>
         {{ mod.desc }}
       </div>
       <div>
         <a href="https://www.farming-simulator.com/mod.php?mod_id={{ mod.mh }}" target="_blank"
-          style="text-decoration: none">
-          <img src="/img/modHubLogo.png" />
+          style="text-decoration: none;">
+          <img src="/img/modHubLogo.png" style="width: 64px;" />
         </a>
         {% if mod.gh %}
-        <a href="https://github.com/{{ mod.gh }}" target="_blank" style="text-decoration: none">
-          <img src="/img/gitHubLogo.png" />
+        <a href="https://github.com/{{ mod.gh }}" target="_blank" style="text-decoration: none;">
+          <img src="/img/gitHubLogo.png" style="width: 64px;" />
         </a>
         {% endif %}
       </div>
