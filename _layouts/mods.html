@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
-<h2>Mods</h2>
-
-{{ content }}
+{% for mod in site.mods %}
+<h2>{{ mod.name }}</h2>
+<h2>{{ mod.icon }}</h2>
+<h2>{{ mod.mh }}</h2>
+<h2>{{ mod.gh }}</h2>
+{% endfor %}
