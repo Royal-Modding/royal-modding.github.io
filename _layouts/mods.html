@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-{% for mod in site.mods %}
+{% assign sorted_mods = site.mods | sort:"mh" %}
+{% for mod in sorted_mods %}
 <h2>{{ mod.name }}</h2>
 <table>
   <tr>
