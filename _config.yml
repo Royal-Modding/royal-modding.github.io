@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Royal Modding
 description: Modding team for Farming Simulator
+collections:
+  - mods
