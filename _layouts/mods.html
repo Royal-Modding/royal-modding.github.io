@@ -3,7 +3,24 @@ layout: default
 ---
 {% for mod in site.mods %}
 <h2>{{ mod.name }}</h2>
-<h2>{{ mod.icon }}</h2>
-<h2>{{ mod.mh }}</h2>
-<h2>{{ mod.gh }}</h2>
+<table>
+  <tr>
+    <td>
+      <img src="/img/{{ mod.icon }}.jpg"/>
+    </td>
+    <td>
+      <div>
+        {{ mod.desc }}
+      </div>
+      <div>
+        <a href="{{ mod.mh }}">
+         <img src="https://www.qries.com/images/banner_logo.png"/>
+        </a>
+        <a href="{{ mod.gh }}">
+         <img src="https://www.qries.com/images/banner_logo.png"/>
+        </a>
+			</div>
+    </td>
+  </tr>
+</table>
 {% endfor %}
