@@ -6,20 +6,23 @@ layout: default
 <table>
   <tr>
     <td>
-      <img src="/img/{{ mod.icon }}.jpg"/>
+      <img src="/img/{{ mod.icon }}.jpg" />
     </td>
     <td>
       <div>
         {{ mod.desc }}
       </div>
       <div>
-        <a href="https://www.farming-simulator.com/mod.php?mod_id={{ mod.mh }}">
-					<img src="/img/modHubLogo.png"/>
+        <a href="https://www.farming-simulator.com/mod.php?mod_id={{ mod.mh }}" target="_blank"
+          style="text-decoration: none">
+          <img src="/img/modHubLogo.png" />
         </a>
-        <a href="https://github.com/{{ mod.gh }}">
-					<img src="/img/gitHubLogo.png"/>
+        {% if mod.gh %}
+        <a href="https://github.com/{{ mod.gh }}" target="_blank" style="text-decoration: none">
+          <img src="/img/gitHubLogo.png" />
         </a>
-			</div>
+        {% endif %}
+      </div>
     </td>
   </tr>
 </table>
