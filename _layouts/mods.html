@@ -10,16 +10,16 @@ layout: default
     </td>
     <td style="border: none; max-height: 130px;">
       <div style="max-height: 130px;">
-        <p>{{ mod.desc }}</p>
+        {{ mod.desc }}
       </div>
       <div style="margin-top: 10px; margin-bottom: 6px;">
         <a href="https://www.farming-simulator.com/mod.php?mod_id={{ mod.mh }}" target="_blank"
           style="text-decoration: none;">
-          <img src="/img/modHubLogo.png" style="width: 54px; margin-right: 12px;" />
+          <img src="/img/modHubLogo.png" style="width: 54px; margin-right: 12px; margin-top: 15px;" />
         </a>
         {% if mod.gh %}
         <a href="https://github.com/{{ mod.gh }}" target="_blank" style="text-decoration: none;">
-          <img src="/img/gitHubLogo.png" style="width: 54px; margin-right: 12px;" />
+          <img src="/img/gitHubLogo.png" style="width: 54px; margin-right: 12px; margin-top: 15px;" />
         </a>
         {% endif %}
       </div>
