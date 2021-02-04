@@ -1,3 +1,4 @@
 ---
 layout: mods
+title: Mods
 ---
