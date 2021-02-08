@@ -14,12 +14,14 @@ layout: default
         {{ mod.desc }}
       </div>
       <div style="position: absolute; bottom: 10px; left: 10px;">
-        <a href="https://www.farming-simulator.com/mod.php?mod_id={{ mod.mh }}" target="_blank"
+        <a class="modhub-link" data-type="ModHub" data-item="{{ mod.name }}"
+          href="https://www.farming-simulator.com/mod.php?mod_id={{ mod.mh }}" target="_blank"
           style="text-decoration: none;">
           <img src="/img/modHubLogo.png" style="width: 54px; margin-right: 12px; margin-top: 15px;" />
         </a>
         {% if mod.gh %}
-        <a href="https://github.com/{{ mod.gh }}" target="_blank" style="text-decoration: none;">
+        <a class="github-link" data-type="GitHub" data-item="{{ mod.name }}" href="https://github.com/{{ mod.gh }}"
+          target="_blank" style="text-decoration: none;">
           <img src="/img/gitHubLogo.png" style="width: 54px; margin-right: 12px; margin-top: 15px;" />
         </a>
         {% endif %}
