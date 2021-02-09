@@ -4,3 +4,5 @@ description: Mods like never before!
 google_analytics: G-PTBEVGZ2FE
 collections:
   - mods
+plugins:
+  - jekyll-sitemap
