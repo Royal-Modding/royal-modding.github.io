@@ -1,6 +1,6 @@
 ---
 name: Jenz BA 725 D
 desc: Woodcrusher Jenz BA 725 D.
-icon: iconBig1
+icon: iconBig001
 mh: 185792
 ---

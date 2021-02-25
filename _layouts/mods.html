@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign sorted_mods = site.mods | sort:"mh" %}
 {% for mod in sorted_mods reversed %}
+{% if mod.mh %}
 <h2>{{ mod.name }}</h2>
 <table>
   <tr>
@@ -30,4 +31,5 @@ layout: default
   </tr>
 </table>
 <hr>
+{% endif %}
 {% endfor %}
