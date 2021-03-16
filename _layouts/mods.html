@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign sorted_mods = site.mods | sort:"mh" %}
 {% for mod in sorted_mods reversed %}
-{% if mod.mh %}
+{% if mod.mh or mod.gh %}
 <h2>{{ mod.name }}</h2>
 <table>
   <tr>
@@ -15,11 +15,13 @@ layout: default
         {{ mod.desc }}
       </div>
       <div style="position: absolute; bottom: 10px; left: 10px;">
+        {% if mod.mh %}
         <a class="modhub-link" data-type="ModHub" data-item="{{ mod.name }}"
           href="https://www.farming-simulator.com/mod.php?mod_id={{ mod.mh }}" target="_blank"
           style="text-decoration: none;">
           <img src="/img/modHubLogo.png" style="width: 54px; margin-right: 12px; margin-top: 15px;" />
         </a>
+        {% endif %}
         {% if mod.gh %}
         <a class="github-link" data-type="GitHub" data-item="{{ mod.name }}" href="https://github.com/{{ mod.gh }}"
           target="_blank" style="text-decoration: none;">
